@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bathroom renovation tips and inspiration">
+    <title>Blog | Delaware Bathrooms</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <header class="gradient-bg text-white shadow-lg">
+        <nav class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <span class="text-3xl">🏠</span>
+                    <span class="text-2xl font-bold">Delaware Bathrooms</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/index.html" class="hover:text-indigo-200 transition">Home</a>
+                    <a href="/services/index.html" class="hover:text-indigo-200 transition">Services</a>
+                    <a href="/projects/index.html" class="hover:text-indigo-200 transition">Projects</a>
+                    <a href="/blog/index.html" class="hover:text-indigo-200 transition">Blog</a>
+                    <a href="/gallery.html" class="hover:text-indigo-200 transition">Gallery</a>
+                    <a href="/contact.html" class="hover:text-indigo-200 transition">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="/index.html" class="block hover:text-indigo-200 transition">Home</a>
+                <a href="/services/index.html" class="block hover:text-indigo-200 transition">Services</a>
+                <a href="/projects/index.html" class="block hover:text-indigo-200 transition">Projects</a>
+                <a href="/blog/index.html" class="block hover:text-indigo-200 transition">Blog</a>
+                <a href="/gallery.html" class="block hover:text-indigo-200 transition">Gallery</a>
+                <a href="/contact.html" class="block hover:text-indigo-200 transition">Contact</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section class="gradient-bg text-white py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-5xl font-bold mb-4">Blog</h1>
+                <p class="text-xl">Tips, trends, and inspiration for your bathroom renovation</p>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Choosing the Right Tile for High-Traffic Areas **" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">Choosing the Right Tile for High-Traffic Areas **</h2>
+                            <p class="text-gray-600 mb-4">High-traffic areas need durable, easy-to-maintain tiles. Learn which materials and finishes work best for busy spaces in your home.</p>
+                            <a href="/blog/choosing-right-tile-high-traffic-areas.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=800&h=600&fit=crop" alt="Budget-Friendly Kitchen Renovation Tips" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">Budget-Friendly Kitchen Renovation Tips</h2>
+                            <p class="text-gray-600 mb-4">Transform your kitchen without breaking the bank. Practical tips for a beautiful renovation on a budget.</p>
+                            <a href="/blog/budget-friendly-kitchen-renovation-tips.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=600&fit=crop" alt="The Ultimate Guide to Grout Selection" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">The Ultimate Guide to Grout Selection</h2>
+                            <p class="text-gray-600 mb-4">Choosing the right grout is crucial for your tile project. Learn about different types, colors, and applications.</p>
+                            <a href="/blog/ultimate-guide-to-grout-selection.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&h=600&fit=crop" alt="Small Bathroom? Big Impact Design Ideas" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">Small Bathroom? Big Impact Design Ideas</h2>
+                            <p class="text-gray-600 mb-4">Maximize your small bathroom space with these clever design ideas and tile choices that create the illusion of more room.</p>
+                            <a href="/blog/small-bathroom-big-impact-design-ideas.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&h=600&fit=crop" alt="Tile Maintenance: Keep Your Floors Looking New" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">Tile Maintenance: Keep Your Floors Looking New</h2>
+                            <p class="text-gray-600 mb-4">Learn the best practices for maintaining your tile floors and keeping them looking pristine for years to come.</p>
+                            <a href="/blog/tile-maintenance-keep-floors-looking-new.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop" alt="How to Choose the Perfect Kitchen Backsplash herny blog" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">How to Choose the Perfect Kitchen Backsplash herny blog</h2>
+                            <p class="text-gray-600 mb-4">A comprehensive guide to selecting the ideal backsplash for your kitchen. Learn about materials, colors, patterns, and installation tips.</p>
+                            <a href="/blog/how-to-choose-perfect-kitchen-backsplash.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop" alt="10 Bathroom Tile Trends for 2025" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-gray-500 text-sm mb-2">10/3/2025</p>
+                            <h2 class="text-2xl font-bold mb-3">10 Bathroom Tile Trends for 2025</h2>
+                            <p class="text-gray-600 mb-4">Discover the hottest tile trends that will transform your bathroom into a modern oasis. From bold patterns to natural textures, we cover it all.</p>
+                            <a href="/blog/10-bathroom-tile-trends-2025.html" class="text-indigo-600 font-semibold hover:text-indigo-800">Read More →</a>
+                        </div>
+                    </article>
+                
+            </div>
+        </section>
+        
+    </main>
+    
+    
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">🏠 Delaware Bathrooms</h3>
+                    <p class="text-gray-400">Professional Bathroom Renovation Services</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/services/index.html" class="hover:text-white transition">Services</a></li>
+                        <li><a href="/projects/index.html" class="hover:text-white transition">Projects</a></li>
+                        <li><a href="/blog/index.html" class="hover:text-white transition">Blog</a></li>
+                        <li><a href="/contact.html" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="text-gray-400">
+                        Email: info@delawarebathrooms.com<br>
+                        Phone: (302) 555-0123
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 E.S. Tile Home Improvements - Delaware Bathrooms. All rights reserved.</p>
+                <p class="mt-2 text-sm">Generated: 10/19/2025</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button')?.addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu?.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
