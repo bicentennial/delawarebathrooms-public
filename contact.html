@@ -138,8 +138,8 @@
                 };
                 
                 try {
-                    // Send to API
-                    const response = await fetch('http://localhost:5273/api/contact', {
+                    // Send to AWS Lambda API
+                    const response = await fetch('https://ku0hc2psea.execute-api.us-east-1.amazonaws.com/prod/contact', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -211,7 +211,7 @@
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
                 <p>&copy; 2025 E.S. Tile Home Improvements - Delaware Bathrooms. All rights reserved.</p>
-                <p class="mt-2 text-sm">Generated: 10/19/2025</p>
+                <p class="mt-2 text-sm">Generated: 10/20/2025</p>
             </div>
         </div>
     </footer>
