@@ -56,14 +56,12 @@
     </div>
     
     <header class="gradient-bg text-white shadow-lg">
-        <nav class="container mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-                <a href="/index.html" class="flex items-center space-x-3">
-                    <img src="/media/logo.jpg" alt="E.S. Tile Home Improvements Inc" class="h-12 w-auto bg-white rounded-md p-1 shadow-md">
-                    <div class="flex flex-col">
-                        <span class="text-xl md:text-2xl font-bold leading-tight">E.S. Tile Home Improvements Inc</span>
-                        <span class="text-xs md:text-sm text-indigo-200 leading-tight">Delaware Bathrooms / Most trusted Renovation Professionals in Delaware</span>
-                    </div>
+        <nav class="container mx-auto px-4 py-2 md:py-3">
+            <!-- Row 1: Logo + Title + Menu -->
+            <div class="flex items-center justify-between mb-1">
+                <a href="/index.html" class="flex items-center space-x-2 md:space-x-3">
+                    <img src="/media/logo.jpg" alt="E.S. Tile Home Improvements Inc" class="h-10 md:h-12 w-auto bg-white rounded-md p-1 shadow-md">
+                    <span class="text-base md:text-xl font-bold">E.S. Tile Home Improvements Inc</span>
                 </a>
                 <div class="hidden lg:flex space-x-6">
                     <a href="/index.html" class="hover:text-indigo-200 transition">Home</a>
@@ -79,6 +77,11 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
+            </div>
+            
+            <!-- Row 2: Subtitle -->
+            <div class="text-[9px] md:text-xs text-indigo-200 text-center whitespace-nowrap overflow-hidden px-2">
+                Delaware Bathrooms / Most trusted Renovation Professionals in Delaware
             </div>
             <div id="mobile-menu" class="hidden lg:hidden mt-4 space-y-2">
                 <a href="/index.html" class="block hover:text-indigo-200 transition">Home</a>
